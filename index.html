@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>جمع و ضرب ماتریس</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<video id="bg" autoplay muted loop playsinline>
+  <source src="angels-beneath-the-divine-light-wallpaperwaves-com.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+
+  <h2>جمع و ضرب دو ماتریس</h2>
+
+  <p>ماتریس A (هر سطر در یک خط، درایه‌ها با فاصله):</p>
+  <textarea id="a">1 2
+3 4</textarea>
+
+  <p>ماتریس B:</p>
+  <textarea id="b">5 6
+7 8</textarea>
+
+  <button onclick="run()">محاسبه</button>
+
+  <h3>A + B =</h3>
+  <pre id="sum"></pre>
+
+  <h3>A × B =</h3>
+  <pre id="prod"></pre>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
